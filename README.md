@@ -74,6 +74,12 @@ streamlit run app.py
   - F1 Score: 0.804
   - Threshold: 0.96
 
+- Simple Deep Learning Sequential Model:
+  - ROC-AUC Score: 0.98
+  - Precision-Recall AUC: 0.755
+  - F1 Score: 0.796
+  - Threshold: 0.99
+
 ## Technical Details
 
 ### Features Used
