@@ -69,9 +69,10 @@ streamlit run app.py
 
 ## Model Performance
 - XGBoost Model:
-  - ROC-AUC Score: [Your Score]
-  - Precision-Recall AUC: [Your Score]
-  - F1 Score: [Your Score]
+  - ROC-AUC Score: 0.98
+  - Precision-Recall AUC: 0.803
+  - F1 Score: 0.804
+  - Threshold: 0.96
 
 ## Technical Details
 
