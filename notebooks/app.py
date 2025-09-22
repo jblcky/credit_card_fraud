@@ -41,7 +41,7 @@ st.markdown("""
 # Load the model
 @st.cache_resource
 def load_model():
-    model_path = 'xgboost_fraud_detector_22-9-2025.joblib'
+    model_path = 'notebooks/xgboost_fraud_detector_22-9-2025.joblib'
     if os.path.exists(model_path):
         return load(model_path)
     else:
