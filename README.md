@@ -99,6 +99,19 @@ streamlit run app.py
   - High recall scenarios
   - Precision-focused detection
 
+### Residual Analysis for XGB Model
+- **Distribution Characteristics**:
+  - Mean of residuals: -0.0161 (slight negative bias)
+  - Standard deviation: 0.0568
+  - Skewness: -7.6747 (heavily left-skewed)
+  - Kurtosis: 121.5210 (leptokurtic distribution)
+- **Key Findings**:
+  - Model shows consistent performance across probability ranges
+  - Residual analysis based on raw predicted probabilities
+  - Non-normal distribution confirmed by statistical testing
+  - Higher prediction accuracy for non-fraud cases
+  - Heteroscedasticity analysis shows varying error patterns across probability ranges
+
 ## Web Interface Features
 - Real-time transaction analysis
 - Interactive gauge visualization
